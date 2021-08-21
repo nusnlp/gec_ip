@@ -1,4 +1,4 @@
-# System Combination for Grammatical Error Correction Based on Nonlinear Integer Programming
+# System Combination for Grammatical Error Correction Based on Integer Programming
 -------------------------------------------
 
 This repository contains the code and scripts that implement the nonlinear integer programming system combination approach for grammatical error correction.
