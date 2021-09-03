@@ -37,7 +37,7 @@ pip install spacy
 python -m spacy download en
 ```
 
-For the Nonlinear Integer Programming (NIP) solver, we use 
+For the nonlinear integer programming solver, we use 
 
 ```
 LINGO10.0
@@ -46,7 +46,7 @@ LINGO10.0
 
 ## Example
 
-Combine the 3 GEC systems listed in the paper using the NIP approach. The three systems are UEdin-MS (https://aclanthology.org/W19-4427), Kakao (https://aclanthology.org/W19-4423), and Tohoku (https://aclanthology.org/D19-1119). The core functions for the NIP objective are implemented in model.lg4. You can find model.lg4 under `lingo/inputs`.
+Combine the 3 GEC systems listed in the paper using the IP approach. The three systems are UEdin-MS (https://aclanthology.org/W19-4427), Kakao (https://aclanthology.org/W19-4423), and Tohoku (https://aclanthology.org/D19-1119). The core functions for the IP objective are implemented in model.lg4. You can find model.lg4 under `lingo/inputs`.
 
 1. Run `python prepare_data.py -dir . -list kakao uedinms tohoku` to generate aggregated TP, FP, and FN counts. The counts files are stored under `lingo/inputs`.
 
@@ -57,7 +57,7 @@ Combine the 3 GEC systems listed in the paper using the NIP approach. The three 
 
 The `data` folder provides individual GEC system output files, and .m2 files generated using ERRANT for the listed systems. For more information, please visit the [ERRANT github page](https://github.com/chrisjbryant/errant).
 
-We include the NIP combined .m2 files under `merged_m2`, and the corresponding text files under `submissions`.
+We include the IP combined .m2 files under `merged_m2`, and the corresponding text files under `submissions`.
 
 
 ## License
