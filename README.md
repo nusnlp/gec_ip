@@ -1,11 +1,11 @@
-# System Combination for Grammatical Error Correction Based on Nonlinear Integer Programming
+# System Combination for Grammatical Error Correction Based on Integer Programming
 -------------------------------------------
 
 This repository contains the code and scripts that implement the system combination approach for grammatical error correction in [Lin and Ng (2021)](#reference).
 
 ## Reference
 Ruixi Lin and Hwee Tou Ng (2021). 
-[System Combination for Grammatical Error Correction Based on Nonlinear Integer Programming](https://ranlp.org/ranlp2021/proceedings.pdf). 
+[System Combination for Grammatical Error Correction Based on Integer Programming](https://ranlp.org/ranlp2021/proceedings.pdf). 
 
 Please cite: 
 ```
