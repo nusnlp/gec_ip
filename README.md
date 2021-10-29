@@ -42,6 +42,7 @@ For the nonlinear integer programming solver, we use
 ```
 LINGO10.0
 ```
+Note that educational institutions can obtain a free license to use the LINGO solver.
 
 
 ## Example
