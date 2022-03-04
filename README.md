@@ -5,7 +5,7 @@ This repository contains the code and scripts that implement the system combinat
 
 ## Reference
 Ruixi Lin and Hwee Tou Ng (2021). 
-[System Combination for Grammatical Error Correction Based on Integer Programming](https://ranlp.org/ranlp2021/proceedings.pdf). 
+[System Combination for Grammatical Error Correction Based on Integer Programming](https://arxiv.org/abs/2111.01465). 
 
 Please cite: 
 ```
